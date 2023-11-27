@@ -202,7 +202,12 @@ const styles = StyleSheet.create({
   },
   negrito: {
     fontWeight:'bold',
-  }
+  },
+  image: {
+    bottom: 100,
+    width: 350,
+    height: 250,
+  },
 });
 
 export default styles;
