@@ -95,7 +95,7 @@ const ConversaoValorParaCor = () => {
           style={styles.inputc}
         />
         <Text style={styles.infoText}>
-          (A última faixa sempre será dourada)
+          (A Faixa 4 sempre será dourada, o valor poderá ter uma variação de 5%)
         </Text>
         <TouchableOpacity onPress={converterParaCores} style={styles.botaoc}>
           <Text style={styles.textobutc}>Converter para Valor em Ohms</Text>
