@@ -20,30 +20,30 @@ const ConversaoValorParaCor = () => {
   const converterParaCores = () => {
     // Defina um padrão de correspondência entre cores e números
     const correspondenciaCores = {
-      preto: 0,
-      marrom: 1,
+      preto:    0,
+      marrom:   1,
       vermelho: 2,
-      laranja: 3,
-      amarelo: 4,
-      verde: 5,
-      azul: 6,
-      roxo: 7,
-      cinza: 8,
-      branco: 9,
+      laranja:  3,
+      amarelo:  4,
+      verde:    5,
+      azul:     6,
+      roxo:     7,
+      cinza:    8,
+      branco:   9,
     };
 
     // Defina um padrão de correspondência entre cores e fatores multiplicadores
     const correspondenciaFatores = {
-      preto: 1,
-      marrom: 10,
-      vermelho: 100,
-      laranja: 1000,
-      amarelo: 10000,
-      verde: 100000,
-      azul: 1000000,
-      roxo: 10000000,
-      cinza: 100000000,
-      branco: 1000000000,
+      preto:     1,
+      marrom:    10,
+      vermelho:  100,
+      laranja:   1000,
+      amarelo:   10000,
+      verde:     100000,
+      azul:      1000000,
+      roxo:      10000000,
+      cinza:     100000000,
+      branco:    1000000000,
     };
 
     // Converta as cores para valores
