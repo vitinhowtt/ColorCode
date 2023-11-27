@@ -6,6 +6,7 @@ import {
   TouchableOpacity,
   SafeAreaView,
   Keyboard,
+  Image,
 } from 'react-native';
 import { useNavigation } from '@react-navigation/native';
 import styles from './styles';
@@ -73,6 +74,12 @@ const ConversaoValorParaCor = () => {
   return (
     <SafeAreaView style={(styles.sAViewCorValor, styles.container)}>
       <View>
+        <Image
+          style={styles.image}
+          source={{
+            uri: 'https://embarcados.com.br/wp-content/uploads/2022/05/image-31.png.webp',
+          }}
+        />
         <Text style={styles.contentTextc}>
           Insira as cores das três faixas:
         </Text>
