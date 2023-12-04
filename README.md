@@ -24,5 +24,5 @@ Muito obrigado por usar o nosso aplicativo!!!
 
 
 equipe: 
-Rhamon Valois
-Vitor Hugo Reis Sousa
+Rhamon Valois;
+Vitor Hugo Reis Sousa.
